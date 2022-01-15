@@ -11,6 +11,10 @@
 .header__titulo{
     display: none;
 }
+.navbar-brand{
+    display: none;
+}
+
 
 /* ****HEADER LOGO MOBILE**** */
 .header__logo{
@@ -29,7 +33,7 @@
     color: #EBCA98;
 }
 .header__frase{
-    color: white;
+    color: #00524B;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.7rem;
     text-align: right;
@@ -40,8 +44,8 @@
 /* MAINS */
 /* ****MAIN INDEX**** */
 .carousel-item img{
-    width: auto;
-    height: 30rem;
+    width: 100%;
+    height: auto;
 }
 
 /* ****H4S**** */
@@ -155,11 +159,14 @@
 }
 .mainQuienes__a{
     text-decoration: none;
-    color: white;
+    color: #F3DFC1;
 }
 .mainQuienes__blanco{
-    color: white;
+    color: #F3DFC1;
     font-size: 1rem;
+}
+.mainQuienes b{
+    font-size: 1.3rem;
 }
 
 /* ****MAIN CONTACTO**** */
@@ -227,7 +234,7 @@
 
 /* ****SECTION EVENTOS**** */
 .sectionEventos__opcion1 h4{
-    color: white;
+    color: #EBCA98;
     margin: 1rem;
 }
 .sectionEventos__picada{
@@ -237,7 +244,7 @@
     height: auto; 
 }
 .sectionEventos__opcion2 h4{
-    color: white;
+    color:#EBCA98;
     margin: 1rem;
 }
 .sectionEventos__menu{
@@ -248,7 +255,7 @@
 }
 .h4Eventos{
     margin: 1rem;
-    color: white;
+    color: #EBCA98;
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
@@ -322,6 +329,9 @@
 /* ****HEADER**** */
 .header__principal{
     margin: 0.5rem;
+}
+.navbar-brand{
+    display: flex;
 }
 .header__titulo{
     display: flex;
@@ -470,7 +480,7 @@
     "frase1 picada";
 }
 .sectionEventos__opcion1 h4{
-    color: white;
+    color: #EBCA98;
     margin-left: 11rem;
     margin-top: 10rem;
     grid-area: frase1;
@@ -488,7 +498,7 @@
     "menu frase2";
 }
 .sectionEventos__opcion2 h4{
-    color: white;
+    color: #EBCA98;
     grid-area: frase2;
     margin-top: 11rem;
 }
@@ -506,7 +516,7 @@
 }
 .sectionEventos__opcion3 h4{
     margin-top: 14rem;
-    color: white;
+    color: #EBCA98;
 }
 .sectionEventos__salmon{
     width: 17rem;

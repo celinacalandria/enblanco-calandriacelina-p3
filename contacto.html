@@ -17,7 +17,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#inicio">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./img/logo.png" alt="logo" style="width:120px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- ---HEADER--- -->
     <header class="header">
         <div class="header__logo">
@@ -66,20 +66,19 @@
         <h4 class="h4">¡escribínos!</h4>
 
         <form class="mainContacto__form">
-            <fieldset class="mainContacto__cuadro">
-                <legend class="mainContacto__leyenda">tu consulta</legend>
-                    <label for=nombre>nombre</label>
-                    <input type="text" name="nombre" id="name" required>
-                    <label for="apellido">apellido</label>
-                    <input type="text" name="apellido" id="apellido" required>
-                    <label for=email>email</label>
-                    <input type="email" name="email" id="email" required>
-                    <label for="telefono">teléfono</label>
-                    <input type="tel" name="telefono" id="telefono" required>
-                    <label for="consulta">consulta</label>
-                    <textarea name="consulta" id="consulta" cols="30" rows="8" placeholder="te responderemos en breve"></textarea>
-                    <input type="submit" value="enviar" class="mainContacto__boton">
-            </fieldset>
+                <label for=nombre>nombre</label>
+                <input type="text" name="nombre" id="name" required>
+                <label for="apellido">apellido</label>
+                <input type="text" name="apellido" id="apellido" required>
+                <label for=email>email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="telefono">teléfono</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <label for="consulta">consulta</label>
+                <textarea name="consulta" id="consulta" cols="50" rows="8" placeholder="te responderemos en breve"></textarea>
+                <div class="d-grid gap-2 col-3 mx-auto">
+                    <button type="button" class="btn btn-outline-success">enviar</button>
+                </div>
         </form>
     </main>
 

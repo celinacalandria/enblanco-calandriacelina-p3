@@ -17,7 +17,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#inicio">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./img/logo.png" alt="logo" style="width:120px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,9 +65,6 @@
         <h4 class="h4">lo sabemos... ¡imposible decidirse!</h4>
 
         <form class="mainTienda__form">
-            <fieldset class="mainTienda__cuadro">
-            <legend class="mainTienda__leyenda">tu pedido</legend>
-
             <ul class="mainTienda__ul">
                 <div class="mainTienda__panmolde">
                     <li class="mainTienda__li--moldeblanco">
@@ -193,14 +190,15 @@
                     <input type="tel" name="telefono" id="telefono" required>
                     <label for="pedido">pedido</label>
                     <textarea name="pedido" id="pedido" cols="30" rows="8" placeholder="algo que quieras aclarar:) después de realizar tu pedido, recibirás un correo electrónico con el número de orden de compra"></textarea>
-                    <input type="submit" value="encargar" class="mainTienda__boton">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-outline-success">encargar</button>
+                    </div>
                 </div>
             
                 <div class="mainTienda__pedidolisto">
                     <img src="./img/listo.jpeg" alt="pedido listo"> 
                 </div>    
             </div>
-            </fieldset>
         </form>
     </main>
 

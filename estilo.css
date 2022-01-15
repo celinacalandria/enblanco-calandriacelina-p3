@@ -75,10 +75,6 @@
 .mainTienda__form{
     margin: 1rem;
 }
-.mainTienda__cuadro{
-    padding: 1rem;
-    border: 0.2rem solid white;
-}
 .mainTienda__leyenda{
     display: none;
 }
@@ -143,12 +139,9 @@
     margin-top: 0.5rem;
     text-align: center;
 }
-.mainTienda__boton{
-    background-color:#00524B;
-    border: 0.5rem solid #00524B;
-    color: #EBCA98;
-    cursor: pointer;
-} 
+.btn{
+    margin: 1.5rem;
+}
 .mainTienda__pedidolisto{
     display: none;
 }
@@ -176,13 +169,6 @@
 }
 .mainContacto__form{
     margin: 1rem;
-}
-.mainContacto__cuadro{
-    padding: 1rem;
-    border: 0.2rem solid white;
-}
-.mainContacto__leyenda{
-    display: none;
 }
 .mainContacto__form label{
     padding: 0.5rem;
@@ -441,11 +427,6 @@
 .mainContacto__form{
     margin-left: 5rem;
     margin-right: 5rem;
-}
-.mainContacto__leyenda{
-    display: block;
-    font-size: 1.5rem;
-    margin-left: 5rem;
 }
 .mainContacto__form label{
     margin-left: 8rem;

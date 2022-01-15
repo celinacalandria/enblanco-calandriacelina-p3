@@ -3,11 +3,6 @@
     padding: 0px;
 }
 
-body{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #00524B;
-}
-
 /* MOBILE */
 /* aprox 500px */
 
@@ -31,7 +26,7 @@ body{
     letter-spacing: 0.3rem;
     text-align: center;
     padding: 1rem;
-    color: white;
+    color: #EBCA98;
 }
 .header__frase{
     color: white;
@@ -51,7 +46,7 @@ body{
 
 /* ****H4S**** */
 .h4{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
@@ -60,7 +55,7 @@ body{
 
 /* ****MAIN PS**** */
 .main__p{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 0.9rem;
     text-align: center;
     margin: 0.7rem;
@@ -70,7 +65,7 @@ body{
 
 /* ****MAIN TIENDA**** */
 .mainTienda{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 0.9rem;
 } 
 .mainTienda__form{
@@ -147,7 +142,7 @@ body{
 .mainTienda__boton{
     background-color:#00524B;
     border: 0.5rem solid #00524B;
-    color: #F3DFC1;
+    color: #EBCA98;
     cursor: pointer;
 } 
 .mainTienda__pedidolisto{
@@ -201,7 +196,7 @@ body{
 .mainContacto__boton{
     background-color:#00524B;
     border: 0.5rem solid #00524B;
-    color: #F3DFC1;
+    color: #EBCA98;
     cursor: pointer;
 }
 
@@ -211,7 +206,7 @@ body{
     padding: 1.2rem;
 }
 .sectionMobile__frase{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -223,7 +218,7 @@ body{
     padding: 1.2rem;
 }
 .sectionDesktop__frase{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -312,12 +307,10 @@ body{
     padding: 0.5rem;
     text-decoration: none;
     color:#00524B; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.8rem;
 }
 .footer__lugar{
     color: #00524B;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.7rem;
     text-align: center;
     padding: 0.5rem;
@@ -333,7 +326,7 @@ body{
 .header__titulo{
     display: flex;
     justify-content: center;
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 5rem;
     letter-spacing: 0.5rem;
     text-align: center;  
@@ -461,7 +454,7 @@ body{
     padding: 2.5rem;
 }
 .sectionDesktop__frase{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 2.5rem;
@@ -524,7 +517,7 @@ body{
     height: auto;
 }
 .h4Eventos{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 1.3rem;
 }
 
@@ -554,7 +547,7 @@ body{
 
 /* ****FOOTER**** */
 .footer{
-    background-color: #00524B;
+    background-color: white;
 }
 .footer__imagen{
     display: block;
@@ -569,14 +562,14 @@ body{
     list-style-type: none;
 }
 .footer__ul a{
-    color: #F3DFC1;
+    color: #00524B;
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 .footer__lugar{
-    padding: 0.8rem;
-    color: #F3DFC1;
+    padding: 0.5rem;
+    color: #00524B;
     font-size: 0.80rem;
 }
 }

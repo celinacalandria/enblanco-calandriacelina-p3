@@ -128,6 +128,7 @@
     padding: 0.5rem;
 }
 .mainTienda__datos input{
+    width: 90%;
     display: block;
     margin: auto;
     margin-top: 0.5rem;
@@ -164,7 +165,7 @@
 
 /* ****MAIN CONTACTO**** */
 .mainContacto{
-    color: #F3DFC1;
+    color: #EBCA98;
     font-size: 0.9rem;
 }
 .mainContacto__form{
@@ -185,12 +186,6 @@
     margin: auto;
     margin-top: 0.5rem;
     text-align: center;
-}
-.mainContacto__boton{
-    background-color:#00524B;
-    border: 0.5rem solid #00524B;
-    color: #EBCA98;
-    cursor: pointer;
 }
 
 /* SECTIONS */
@@ -321,6 +316,7 @@
 }
 .header__titulo{
     display: flex;
+    font-family: 'caveat', cursive;
     justify-content: center;
     color: #EBCA98;
     font-size: 5rem;

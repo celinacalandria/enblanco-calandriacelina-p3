@@ -62,13 +62,9 @@ body{
 
 /* MAINS */
 /* ****MAIN INDEX**** */
-.main__imagenes{
-    display: flex;
-    flex-direction: column;
-}
-.main__imagenes img{
-    width: 100%;
-    height: auto;
+.carousel-item img{
+    width: auto;
+    height: 32rem;
 }
 
 /* ****H4S**** */

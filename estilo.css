@@ -4,7 +4,10 @@
 }
 
 /* MOBILE (aprox 500px) */
-
+/* ****BODY**** */
+.bg-color{
+    background-color: #00524B;
+}
 
 /* ****NAVBAR**** */
 .navbar-brand{
@@ -31,7 +34,7 @@
     letter-spacing: 0.3rem;
     text-align: center;
     padding: 1rem;
-    color: #EBCA98;
+    color: #F3DFC1;
 }
 .header__frase{
     color: #00524B;
@@ -44,14 +47,18 @@
 
 /* ****MAINS**** */
 /* MAIN INDEX */
+.mainContainer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 .carousel-item img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* ****H4S**** */
 .h4{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
@@ -60,7 +67,7 @@
 
 /* MAIN PS */
 .main__p{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 0.9rem;
     text-align: center;
     margin: 0.7rem;
@@ -70,7 +77,7 @@
 
 /* MAIN TIENDA */
 .mainTienda{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 0.9rem;
 } 
 .mainTienda__form{
@@ -90,6 +97,10 @@
     height: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+.mainTienda__ul img:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 .mainTienda__select{
     color: #00524B;
@@ -151,10 +162,10 @@
 }
 .mainQuienes__a{
     text-decoration: none;
-    color: #F3DFC1;
+    color: white;
 }
 .mainQuienes__blanco{
-    color: #F3DFC1;
+    color: white;
     font-size: 1rem;
 }
 .mainQuienes b{
@@ -163,7 +174,7 @@
 
 /* MAIN CONTACTO */
 .mainContacto{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 0.9rem;
 }
 .mainContacto__form{
@@ -192,7 +203,7 @@
     padding: 1.2rem;
 }
 .sectionMobile__frase{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -202,16 +213,21 @@
     padding: 1.2rem;
 }
 .sectionDesktop__frase{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
 }
+.sectionDesktop__frase:hover{
+    transform: scale(1,1.5);
+    transition: 1s;
+    color: white;
+}
 
 /* SECTION EVENTOS */
 .sectionEventos__opcion1 h4{
-    color: #EBCA98;
+    color: #F3DFC1;
     margin: 1rem;
 }
 .sectionEventos__picada{
@@ -220,8 +236,12 @@
     width: 70%;
     height: auto; 
 }
+.sectionEventos__picada:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
 .sectionEventos__opcion2 h4{
-    color:#EBCA98;
+    color:#F3DFC1;
     margin: 1rem;
 }
 .sectionEventos__menu{
@@ -230,9 +250,13 @@
     display: block;
     margin: auto;
 }
+.sectionEventos__menu:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
 .h4Eventos{
     margin: 1rem;
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
@@ -246,9 +270,17 @@
     width: 40%;
     height: auto;
 }
+.sectionEventos__salmon:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
 .sectionEventos__panes{
     width: 40%;
     height: auto;
+}
+.sectionEventos__panes:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 /* SECTION QUIENES */
@@ -301,7 +333,7 @@
 }
 
 /* DESKTOP */
-@media(min-width:992px){
+@media(min-width:600px){
 
 /* *****NAVBAR**** */
 .navbar-brand{
@@ -314,9 +346,10 @@
 }
 .header__titulo{
     display: flex;
-    font-family: 'caveat', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
     justify-content: center;
-    color: #EBCA98;
+    color: white;
     font-size: 5rem;
     letter-spacing: 0.5rem;
     text-align: center;  
@@ -412,7 +445,7 @@
     padding: 2.5rem;
 }
 .sectionDesktop__frase{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 2.5rem;
@@ -428,7 +461,7 @@
     "frase1 picada";
 }
 .sectionEventos__opcion1 h4{
-    color: #EBCA98;
+    color: #F3DFC1;
     margin-left: 11rem;
     margin-top: 10rem;
     grid-area: frase1;
@@ -446,7 +479,7 @@
     "menu frase2";
 }
 .sectionEventos__opcion2 h4{
-    color: #EBCA98;
+    color: #F3DFC1;
     grid-area: frase2;
     margin-top: 11rem;
 }
@@ -464,7 +497,7 @@
 }
 .sectionEventos__opcion3 h4{
     margin-top: 14rem;
-    color: #EBCA98;
+    color: #F3DFC1;
 }
 .sectionEventos__salmon{
     width: 17rem;
@@ -475,7 +508,7 @@
     height: auto;
 }
 .h4Eventos{
-    color: #EBCA98;
+    color: #F3DFC1;
     font-size: 1.3rem;
 }
 

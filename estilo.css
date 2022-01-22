@@ -2,12 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
-
-/* MOBILE (aprox 500px) */
 /* ****BODY**** */
 .bg-color{
     background-color: #00524B;
 }
+
+/* MOBILE (aprox 500px) */
 
 /* ****NAVBAR**** */
 .navbar-brand{
@@ -394,7 +394,7 @@
 /* DESKTOP */
 @media(min-width:1000px){
 
-/* ****MAINS*** */    
+/* ****MAIN*** */    
 .mainContainer{
     padding-left: 7rem;
     padding-right: 7rem;

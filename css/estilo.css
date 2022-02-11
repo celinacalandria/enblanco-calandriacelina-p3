@@ -33,7 +33,7 @@
 }
 
 .header p {
-  font-size: 1rem -0.3rem;
+  font-size: 0.8rem;
   color: #F3DFC1;
   text-align: right;
   padding-bottom: 1rem;
@@ -183,14 +183,14 @@
 }
 
 .footer a {
+  color: #F3DFC1;
   padding: 0.80rem;
   text-decoration: none;
-  color: #F3DFC1;
-  font-size: 1rem -0.2rem;
+  font-size: 0.8rem;
 }
 
 .footer p {
-  font-size: 1rem -0.3rem;
+  font-size: 0.8rem;
 }
 
 .footer__imagen2:hover {

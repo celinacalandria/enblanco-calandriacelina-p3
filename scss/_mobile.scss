@@ -27,7 +27,7 @@
         height: auto;
     }
     p{
-        font-size: $tam-letra -0.3rem;
+        font-size: $tam-letra2;
         color: $color-1;
         text-align: right;
         padding-bottom: 1rem;
@@ -104,13 +104,13 @@
         justify-content: center;
     }
     a{  
+        color: $color-1;
         padding: 0.80rem;
         text-decoration: none;
-        color: $color-1;
-        font-size: $tam-letra -0.2rem;
+        font-size: $tam-letra2;
     }
     p{
-        font-size: $tam-letra -0.3rem;
+        font-size: $tam-letra2;
     }
 }
 .footer__imagen2:hover{

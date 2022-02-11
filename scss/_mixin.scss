@@ -1,0 +1,7 @@
+@mixin letra {
+    font-size: $tam-letra;
+    font-family: $letra;
+    font-weight: lighter;
+    color: $color-1;
+    text-align: center;
+}

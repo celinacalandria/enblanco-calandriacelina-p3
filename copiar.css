@@ -1,11 +1,11 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 /* ****BODY**** */
-.bg-color{
+/* .bg-color{
     background-color: #00524B;
-}
+} */
 
 /* MOBILE (aprox 500px) */
 
@@ -16,20 +16,20 @@
 
 /* ****HEADERS**** */
 /* HEADER__TITULO */
-.header__titulo{
+/* .header__titulo{
     display: none;
 }
 
-/* HEADER LOGO MOBILE */
-.header__logo{
+//* * HEADER LOGO MOBILE */
+/* .header__logo{
     background-image: url(./img/header.png);
     padding: 5rem;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */ 
 
 /* HEADER__SUBTITULO */
-.header__subtitulo{
+/* .header__subtitulo{
     font-size: 1.3rem;
     letter-spacing: 0.3rem;
     text-align: center;
@@ -43,7 +43,7 @@
     text-align: right;
     padding-bottom: 1rem;
     padding-right: 1.2rem;
-} 
+}  */
 
 /* ****MAINS**** */
 /* MAIN INDEX */
@@ -201,7 +201,7 @@
 
 /* ****SECTIONS**** */
 /* SECTION INDEX MOBILE */
-.sectionMobile{
+/* .sectionMobile{
     padding: 1.2rem;
 }
 .sectionMobile__frase{
@@ -210,8 +210,8 @@
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
-}
-.sectionDesktop{
+} */
+/* .sectionDesktop{
     padding: 1.2rem;
 }
 .sectionDesktop__frase{
@@ -220,12 +220,12 @@
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
-}
-.sectionDesktop__frase:hover{
+} */
+/* .sectionDesktop__frase:hover{
     transform: scale(1,1.5);
     transition: 1s;
     color: white;
-}
+} */
 
 /* SECTION EVENTOS */
 .sectionEventos__opcion1 h4{
@@ -308,7 +308,7 @@
 }
 
 /* ****FOOTER**** */
-.footer{
+./* footer{
     background-color: white;
 }
 .footer__imagen{
@@ -332,7 +332,7 @@
     font-size: 0.7rem;
     text-align: center;
     padding: 0.5rem;
-}
+} */
 
 
 /* TABLET */

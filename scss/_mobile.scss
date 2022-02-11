@@ -1,0 +1,119 @@
+/* mobile */
+
+/* navbar */
+.navbar{
+    padding: 5px;
+    input{
+        text-align: center;
+    }
+}
+.navbar-brandIndex{
+    display: none;
+}
+.collapseIndex{
+    margin-top: 1rem;
+}
+#navbarSupportedContent li{
+    margin-left: 2rem; 
+}
+
+/* header */
+.header{
+    h1{
+        display: none;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        font-size: $tam-letra -0.3rem;
+        color: $color-1;
+        text-align: right;
+        padding-bottom: 1rem;
+        padding-right: 1.2rem;
+    }
+    h2{
+        font-size: $tam-letra +0.5rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        padding: 2rem;
+        color: $color-2;
+    }
+}
+
+/* section mobile */
+.sectionMobile{
+    padding: 1.3rem;
+    h3{
+        @include letra;
+        font-size: $tam-letra +0.5rem;
+        letter-spacing: 0.3rem;
+    }
+}
+
+/* main */
+.carousel-indicators{
+    background: none;
+}
+.carousel-control-prev-icon{
+    background: none;
+}
+.carousel-control-next-icon{
+    background: none;
+}
+
+/* section dektop */
+.sectionDesktop{
+    padding: 1.3rem;
+    h3{
+        @include letra;
+        font-size: $tam-letra +1rem;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        animation: frase 4s infinite;
+        @keyframes frase{
+            0% {color: #D88C9A;}
+            15% {color:#F2D0A9;}
+            30% {color: #F1E3D3;}
+            50% {color: #99C1B9;}
+            70% {color: #F1E3D3;}
+            85% {color:#F2D0A9;}
+            100% {color:#D88C9A;}
+        }
+    }  
+}
+
+/* footer */
+.footer{
+    @include letra;
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        padding: 0.25rem;
+        width: 33.333%;
+        height: auto;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        list-style-type: none;
+        justify-content: center;
+    }
+    a{  
+        padding: 0.80rem;
+        text-decoration: none;
+        color: $color-1;
+        font-size: $tam-letra -0.2rem;
+    }
+    p{
+        font-size: $tam-letra -0.3rem;
+    }
+}
+.footer__imagen2:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+}

@@ -1,3 +1,16 @@
+/* imports */
 @import "variables";
+@import "mixin";
+@import "mobile";
  
- 
+/* generales */ 
+*{
+    font-family: $letra;
+    background: $color-principal;
+}
+
+
+/* #navbarSupportedContent li{
+    margin-right: 3.5rem;
+    margin-left: 3.5rem; 
+} */

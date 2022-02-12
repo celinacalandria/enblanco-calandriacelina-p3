@@ -76,7 +76,7 @@
 }
 
 /* MAIN TIENDA */
-.mainTienda{
+/* .mainTienda{
     color: #F3DFC1;
     font-size: 0.9rem;
 } 
@@ -101,8 +101,8 @@
 .mainTienda__ul img:hover{
     transform: scale(1.2);
     transition: 1s;
-}
-.mainTienda__select{
+} */
+/* .mainTienda__select{
     color: #00524B;
 }
 
@@ -128,7 +128,7 @@
 .mainTienda__otros{
     display: flex;
     flex-wrap: nowrap;
-}
+} */
 
 .mainTienda__datos{
     margin-top: 1.5rem;

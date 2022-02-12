@@ -5,3 +5,7 @@
     color: $color-1;
     text-align: center;
 }
+@mixin centrado {
+    display: block;
+    margin: auto;    
+}

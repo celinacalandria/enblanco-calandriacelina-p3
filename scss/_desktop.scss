@@ -119,21 +119,18 @@
         margin-right: 5rem;
     }
 }
-.mainTienda{
-    form{
+.mainTienda__form{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
+        padding: 1rem;
 }
 .mainTienda__contenedor{
     margin: 3rem 0rem 3rem 0rem;
     div{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     input{
         width: 70%;
@@ -145,16 +142,19 @@
         width: 80%;
         @include letra;
         @include centrado;
+        margin-bottom: 2rem;
     }
 }
 .mainTienda__pedidolisto{
     position: relative;
     @include centrado;
+    margin-left: 0px;
+    margin-right: 0px;
     &:hover .overlay{
         height: 100%;
     }
     img{
-        margin-top: 3rem;
+        margin-top: 1.5rem;
         height: 35rem;
         width: auto; 
         display: block;       
@@ -248,7 +248,7 @@
     }
 }
 .h4Eventos{
-    &:hover{
+    &:hover h4{
         font-size: $tam-letra +0.3rem;
         letter-spacing: 0.5rem;
         transition: 0.5s;
@@ -310,4 +310,10 @@
     }
 }
 
+/* contacto */
+.mainContacto__form{    
+    input{
+        width: 40%;
+    }
+}
 }

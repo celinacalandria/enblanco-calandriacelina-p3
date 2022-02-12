@@ -18,12 +18,13 @@
 }
 #navbarSupportedContent{
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    li{
+        margin-left: 2rem; 
+    }
 }
-.navbar-brandIndex{
+#navbar-brandDesktop{
     display: none;
-}
-#navbarSupportedContent li{
-    margin-left: 2rem; 
 }
 
 /* header */
@@ -70,6 +71,9 @@
 }
 .carousel-control-next-icon{
     background: none;
+}
+.mainIndex__imagenes{
+    display: none;
 }
 
 /* section dektop */
@@ -209,6 +213,7 @@
         @include letra;
         color: $color-2;
         @include centrado;
+        margin-top: 1rem;
         width: 70%;
         border:{
             style: solid;

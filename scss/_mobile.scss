@@ -180,11 +180,11 @@
 }
 .mainTienda__datos{
     @include letra;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     input{
         @include centrado;
-        width: 50%;
         @include letra;
+        width: 50%;
         border:{
             width: 0.1rem;
             style: solid;
@@ -199,7 +199,7 @@
         }
     }
     div{
-        margin: 0.5rem;
+        margin: 1rem 0rem 1rem 0rem;
         &:hover{
             font-size: large;
             color: $color-2;
@@ -226,16 +226,17 @@
         width: 70%;
         @include letra;
         @include centrado;
+        margin-bottom: 1rem;
     }
 }
 .mainTienda__pedido{
-    margin: 1rem;
+    margin: 1rem 0rem 0rem 0rem;
 }
 .mainTienda__pedidolisto{
     display: none;
 }
 
-/* eventos */
+/* EVENTOS */
 .mainEventos{
     p{
         @include letra;
@@ -301,7 +302,7 @@
     display: none;
 }
 
-/* quienes somos */
+/* QUIENES SOMOS */
 .mainQuienes{
     @include letra;
     margin: 1rem 3rem 1rem 3rem;
@@ -322,4 +323,59 @@
     }
 }
 
-/* contacto */
+/* CONTACTO */
+.mainContacto__form{
+    @include letra;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    input{
+        @include centrado;
+        @include letra;
+        width: 50%;
+        border: {
+            width: 0.1rem;
+            style: solid;
+            color: $color-principal;
+        }
+        &:hover{
+            border: {
+                width: 0.2rem;
+                style: solid;
+                color: $color-principal $color-principal $color-2 $color-principal;
+            };
+        }
+    }
+    label{
+        margin: 1rem;
+        &:hover{
+            font-size: large;
+            color: $color-2;
+        }
+    }
+    textarea{
+        @include letra;
+        @include centrado;
+        color: $color-2;
+        width: 60%;
+        border:{
+            style: solid;
+            color: $color-principal;
+        }
+        &:hover {
+            border:{
+            style: solid;
+            color: $color-2;
+            width: 00.1rem;
+        }
+        }
+    }
+    div{
+        margin-bottom: 2rem;
+    }
+    button{
+        width: 60%;
+        @include letra;
+        @include centrado;
+        margin-top: 1rem;
+    }
+}

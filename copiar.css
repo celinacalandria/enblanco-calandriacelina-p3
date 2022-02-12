@@ -199,6 +199,64 @@
     width: 50%;
 }
 
+.mainTienda__datos{
+@include letra;
+    margin-top: 1.5rem;
+    input{
+        @include centrado;
+        width: 50%;
+        @include letra;
+        border:{
+            width: 0.1rem;
+            style: solid;
+            color: $color-principal $color-principal $color-1 $color-principal;    
+        }
+        &:hover{
+            border:{
+                style: solid;
+                width: 0.2rem;
+                color: $color-principal $color-principal $color-2 $color-principal;
+            }
+        }
+    }
+    div{
+        margin: 0.5rem;
+        &:hover{
+            font-size: large;
+            color: $color-2;
+        }
+    }
+    textarea{
+        @include letra;
+        color: $color-2;
+        @include centrado;
+        width: 70%;
+        border:{
+            style: solid;
+            color: $color-principal;
+            }
+        &:hover{
+            border: {
+            width: 0.1rem;
+            style: solid;
+            color: $color-2;
+            }
+        }
+    }
+    button{
+        width: 70%;
+        @include letra;
+        @include centrado;
+    }
+
+
+
+
+
+
+
+
+
 /* ****SECTIONS**** */
 /* SECTION INDEX MOBILE */
 /* .sectionMobile{

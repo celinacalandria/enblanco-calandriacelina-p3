@@ -363,10 +363,6 @@
   margin: 1rem 0rem 1rem 0rem;
 }
 
-.mainTienda__label:hover input {
-  border: 0.2rem solid #00524B #00524B white #00524B;
-}
-
 .mainTienda__label input {
   display: block;
   margin: auto;
@@ -377,6 +373,10 @@
   text-align: center;
   width: 50%;
   border: 0.1rem solid #00524B;
+}
+
+.mainTienda__label input:hover input {
+  border: 0.2rem solid #00524B #00524B white #00524B;
 }
 
 .mainTienda__label:hover {

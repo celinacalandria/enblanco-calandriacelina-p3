@@ -215,14 +215,14 @@
 .mainTienda__label{
     display: flex;
     flex-direction: column;
-    &:hover input{
-        border: 0.2rem solid $color-principal $color-principal $color-2 $color-principal;
-    }
     input{
         @include centrado;
         @include letra;
         width: 50%;
         border: 0.1rem solid $color-principal;
+        &:hover input{
+            border: 0.2rem solid $color-principal $color-principal $color-2 $color-principal;
+        }
     }
     margin: 1rem 0rem 1rem 0rem;
         &:hover{

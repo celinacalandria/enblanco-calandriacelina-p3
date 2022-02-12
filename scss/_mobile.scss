@@ -194,29 +194,18 @@
         @include centrado;
         @include letra;
         width: 50%;
-        border:{
-            width: 0.1rem;
-            style: solid;
-            color: $color-principal $color-principal $color-1 $color-principal;    
+        border: solid 0.1rem $color-principal $color-principal $color-1 $color-principal;   
         }
         &:hover{
-            border:{
-                style: solid;
-                width: 0.2rem;
-                color: $color-principal $color-principal $color-2 $color-principal;
+            border:solid 0.2rem $color-principal $color-principal $color-2 $color-principal;
             }
-        }
-    }
     textarea{
         @include letra;
         color: $color-2;
         @include centrado;
         margin-top: 1rem;
         width: 70%;
-        border:{
-            style: solid;
-            color: $color-principal;
-            }
+        border: solid $color-principal;
         &:hover{
             border: {
             width: 0.1rem;
@@ -375,16 +364,9 @@
         @include centrado;
         color: $color-2;
         width: 60%;
-        border:{
-            style: solid;
-            color: $color-principal;
-        }
+        border: solid $color-principal;
         &:hover {
-            border:{
-            style: solid;
-            color: $color-2;
-            width: 00.1rem;
-        }
+            border: solid $color-2 00.1rem;
         }
     }
     div{

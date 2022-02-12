@@ -329,15 +329,11 @@
   color: #F3DFC1;
   text-align: center;
   width: 50%;
-  border-width: 0.1rem;
-  border-style: solid;
-  border-color: #00524B #00524B #F3DFC1 #00524B;
+  border: solid 0.1rem #00524B #00524B #F3DFC1 #00524B;
 }
 
-.mainTienda__datos input:hover {
-  border-style: solid;
-  border-width: 0.2rem;
-  border-color: #00524B #00524B white #00524B;
+.mainTienda__datos:hover {
+  border: solid 0.2rem #00524B #00524B white #00524B;
 }
 
 .mainTienda__datos textarea {
@@ -351,8 +347,7 @@
   margin: auto;
   margin-top: 1rem;
   width: 70%;
-  border-style: solid;
-  border-color: #00524B;
+  border: solid #00524B;
 }
 
 .mainTienda__datos textarea:hover {
@@ -599,14 +594,11 @@
   margin: auto;
   color: white;
   width: 60%;
-  border-style: solid;
-  border-color: #00524B;
+  border: solid #00524B;
 }
 
 .mainContacto__form textarea:hover {
-  border-style: solid;
-  border-color: white;
-  border-width: 00.1rem;
+  border: solid white 0.1rem;
 }
 
 .mainContacto__form div {

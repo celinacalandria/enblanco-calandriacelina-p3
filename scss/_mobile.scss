@@ -5,7 +5,15 @@
 .navbar{
     padding: 5px;
     input{
-        text-align: center;
+        @include letra;
+    }
+    button{
+        font-family: $letra;
+        font-size: $tam-letra;
+    }
+    a{
+        font-family: $letra;
+        font-size: $tam-letra;
     }
 }
 #navbarSupportedContent{
@@ -224,5 +232,71 @@
     margin: 1rem;
 }
 .mainTienda__pedidolisto{
+    display: none;
+}
+
+/* eventos */
+.mainEventos{
+    p{
+        @include letra;
+        margin: 1rem 3rem 1rem 3rem;
+    }
+}
+.sectionEventos{
+    h4{
+        @include letra;
+        color: $color-2;
+        font-size: $tam-letra +0.3rem;
+        margin: 2.7rem;
+    }   
+}
+.sectionEventos__opcion1{
+    @include centrado;
+}
+.sectionEventos__picada{
+    @include centrado;
+    width: 70%;
+    height: auto;
+    filter: brightness(0.7);
+    &:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+        filter: none;
+    }
+}
+.sectionEventos__opcion2{
+    @include centrado;
+}
+.sectionEventos__menu{
+    @include centrado;
+    width: 80%;
+    height: auto;
+    filter: brightness(0.7);
+    &:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+        filter: none;
+    }
+}
+.h4Eventos{
+    @include centrado;
+    @include letra;
+    color: $color-2;
+    letter-spacing: 0.2rem;
+    &:hover{
+        transition: 0.5s;
+        font-size:x-large;
+    }
+}
+.sectionEventos__opcion3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    img{
+        width: 50%;
+        height: auto;
+    }
+}
+.asideEventos{
     display: none;
 }

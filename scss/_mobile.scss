@@ -202,13 +202,6 @@
             }
         }
     }
-    div{
-        margin: 1rem 0rem 1rem 0rem;
-        &:hover{
-            font-size: large;
-            color: $color-2;
-        }
-    }
     textarea{
         @include letra;
         color: $color-2;
@@ -233,6 +226,13 @@
         @include centrado;
         margin-bottom: 1rem;
     }
+}
+.mainTienda__label{
+    margin: 1rem 0rem 1rem 0rem;
+        &:hover{
+            font-size: large;
+            color: $color-2;
+        }
 }
 .mainTienda__pedido{
     margin: 1rem 0rem 0rem 0rem;

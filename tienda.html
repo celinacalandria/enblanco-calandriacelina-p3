@@ -224,36 +224,38 @@
         <form class="mainTienda__form">
             <div class="mainTienda__contenedor">
                 <div class="mainTienda__datos">
-                    <div>
+                    <div class="mainTienda__label"> 
                         <label for="nombre">nombre</label>
                         <input type="text" name="nombre" id="nombre" required>
                     </div>
-                    <div>
+                    <div class="mainTienda__label">
                         <label for="apellido">apellido</label>
                         <input type="text" name="apellido" id="apellido" required>
                     </div>
-                    <div>
+                    <div class="mainTienda__label">
                         <label for="email">email</label>
                         <input type="email" name="email" id="email" required>
                     </div>
-                    <div>
+                    <div class="mainTienda__label">
                         <label for="telefono">teléfono</label>
                         <input type="tel" name="telefono" id="telefono" required>
                     </div>
-                    <div>
+                    <div class="mainTienda__label">
                         <label class="mainTienda__pedido" for="pedido">pedido</label>
                         <textarea name="pedido" id="pedido" cols="60" rows="8" placeholder="algo que quieras aclarar :) después de realizar tu pedido, recibirás un correo electrónico con el número de orden de compra"></textarea>
                     </div>                   
-                    
-                    <div class="d-grid gap-2 col-lg-8 mx-auto">
+                    <div class="mainTienda__boton">
                         <button type="submit" class="btn btn-outline-success text-white" >encargar</button>
                     </div>
                 </div>
-            
-                <div class="mainTienda__pedidolisto">
-                    <img src="./img/listo.jpeg" alt="pedido listo"> 
-                </div>    
             </div>
+
+            <div class="mainTienda__pedidolisto">
+                <img src="./img/listo.jpeg" alt="pedido listo"> 
+                <div class="overlay">
+                    <h4 class="h4Overlay">¡ya sale para vos!</h4>
+                </div>
+            </div>    
         </form>
     </div>
     </main>

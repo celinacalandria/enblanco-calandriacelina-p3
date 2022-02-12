@@ -332,15 +332,6 @@
   border-color: #00524B #00524B white #00524B;
 }
 
-.mainTienda__datos div {
-  margin: 1rem 0rem 1rem 0rem;
-}
-
-.mainTienda__datos div:hover {
-  font-size: large;
-  color: white;
-}
-
 .mainTienda__datos textarea {
   font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -372,6 +363,15 @@
   display: block;
   margin: auto;
   margin-bottom: 1rem;
+}
+
+.mainTienda__label {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.mainTienda__label:hover {
+  font-size: large;
+  color: white;
 }
 
 .mainTienda__pedido {
@@ -619,6 +619,9 @@
   .d-flex {
     width: 30%;
   }
+  .navbar a {
+    text-align: center;
+  }
   /* header */
   .header img {
     display: none;
@@ -734,6 +737,102 @@
   }
   .footer p {
     font-size: 1rem;
+  }
+  /* TIENDA */
+  .mainTienda__productos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .mainTienda form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .mainTienda__contenedor {
+    margin: 3rem 0rem 3rem 0rem;
+  }
+  .mainTienda__contenedor div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mainTienda__contenedor input {
+    width: 70%;
+  }
+  .mainTienda__contenedor textarea {
+    width: 80%;
+  }
+  .mainTienda__contenedor button {
+    width: 80%;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+    color: #F3DFC1;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .mainTienda__pedidolisto {
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .mainTienda__pedidolisto:hover .overlay {
+    height: 100%;
+  }
+  .mainTienda__pedidolisto img {
+    margin-top: 3rem;
+    height: 35rem;
+    width: auto;
+    display: block;
+  }
+  .mainTienda__pedidolisto div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00524B;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  .mainTienda__pedidolisto h4 {
+    color: white;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
 

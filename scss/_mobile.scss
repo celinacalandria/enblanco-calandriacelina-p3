@@ -190,15 +190,6 @@
             filter: none;
         }
     @include letra;
-    input{
-        @include centrado;
-        @include letra;
-        width: 50%;
-        border: solid 0.1rem $color-principal $color-principal $color-1 $color-principal;   
-        }
-        &:hover{
-            border:solid 0.2rem $color-principal $color-principal $color-2 $color-principal;
-            }
     textarea{
         @include letra;
         color: $color-2;
@@ -222,11 +213,22 @@
     }
 }
 .mainTienda__label{
+    display: flex;
+    flex-direction: column;
+    &:hover input{
+        border: 0.2rem solid $color-principal $color-principal $color-2 $color-principal;
+    }
+    input{
+        @include centrado;
+        @include letra;
+        width: 50%;
+        border: 0.1rem solid $color-principal;
+    }
     margin: 1rem 0rem 1rem 0rem;
         &:hover{
-            font-size: large;
-            color: $color-2;
-        }
+        font-size: large;
+        color: $color-2;
+    }
 }
 .mainTienda__pedido{
     margin: 1rem 0rem 0rem 0rem;

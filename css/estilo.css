@@ -494,7 +494,7 @@
   font-weight: lighter;
   color: #F3DFC1;
   text-align: center;
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 1rem 3rem 3rem 3rem;
 }
 
 .mainQuienes a {
@@ -527,6 +527,10 @@
   100% {
     color: #00524B;
   }
+}
+
+.asideQuienes__amasa {
+  display: none;
 }
 
 /* CONTACTO */
@@ -958,6 +962,40 @@
     margin: auto;
     margin-bottom: 20rem;
     margin-top: 3rem;
+  }
+  /* QUIENES SOMOS */
+  .mainQuienes {
+    margin: 2rem 0rem 3rem 0rem;
+  }
+  .mainQuienes p {
+    margin: 2rem 10rem 2rem 10rem;
+    font-size: larger;
+  }
+  .mainQuienes b {
+    font-size: x-large;
+  }
+  .asideQuienes__amasa {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .asideQuienes__amasa:hover img {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .asideQuienes__amasa img {
+    width: 33.33%;
+    height: auto;
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
   }
 }
 

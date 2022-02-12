@@ -310,7 +310,7 @@
 /* QUIENES SOMOS */
 .mainQuienes{
     @include letra;
-    margin: 1rem 3rem 1rem 3rem;
+    margin: 1rem 3rem 3rem 3rem;
     a{
         color: $color-2;
         text-decoration: none;
@@ -326,6 +326,9 @@
             100% {color:$color-principal;}
         }
     }
+}
+.asideQuienes__amasa{
+    display: none;
 }
 
 /* CONTACTO */

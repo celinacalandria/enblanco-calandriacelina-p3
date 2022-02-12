@@ -300,3 +300,26 @@
 .asideEventos{
     display: none;
 }
+
+/* quienes somos */
+.mainQuienes{
+    @include letra;
+    margin: 1rem 3rem 1rem 3rem;
+    a{
+        color: $color-2;
+        text-decoration: none;
+    }
+    b{
+        color: $color-2;
+        font-weight: bolder;
+        font-size: large;
+        letter-spacing: 0.1rem;
+        animation: enblanco 6s infinite;
+        @keyframes enblanco{
+            0% {color:$color-2;}
+            100% {color:$color-principal;}
+        }
+    }
+}
+
+/* contacto */

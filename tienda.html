@@ -28,16 +28,18 @@
     <!-- ---NAVBAR--- -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" id="navbar-brandMobile2" href="./index.html">
-                <img src="./img/logo.png" alt="logo" style="width:120px;">
-            </a>
+            <div class="animate__animated animate__bounceInDown">
+                <a class="navbar-brand" id="navbar-brandMobile2" href="./index.html">
+                    <img src="./img/logo.png" alt="logo" style="width:120px;">
+                </a>
+            </div>
             
             <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-dark me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav navbar-dark">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./tienda.html">tienda</a>
                     </li>
@@ -51,26 +53,23 @@
                         <a class="nav-link" href="./contacto.html">contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex" id="navForm">
                     <input class="form-control me-2" type="search" placeholder="¿con qué te ayudamos?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">dale</button>
+                    <button class="btn btn-outline-success text-white" type="submit">dale</button>
                 </form>
             </div>
         </div>
     </nav>
 
     <!-- ---HEADER--- -->
-    <header class="header">
-        <div class="header__logo">
-        </div>
-        
-        <div class="animate__animated animate__bounce">
+    <header class="header">        
+        <div class="animate__animated animate__slideInDown">
             <h2 class="header__subtitulo">
                 <i>Tienda</i>
             </h2>
         </div>
 
-        <p class="header__frase"><i>Todo hecho con amor y dedicación</i></p>
+        <p class="header__frase"><i>Hecho con amor y dedicación</i></p>
     </header>
     
     <!-- ---MAIN--- -->

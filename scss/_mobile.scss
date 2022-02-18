@@ -3,7 +3,7 @@
 /* INDEX */
 /* navbar */
 .navbar{
-    padding: 5px;
+    padding: 0rem;
     input{
         @include letra;
     }
@@ -17,10 +17,9 @@
     }
 }
 #navbarSupportedContent{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     li{
         margin-left: 2rem; 
+        margin-right: 2rem;
     }
 }
 #navbar-brandDesktop{
@@ -39,9 +38,8 @@
     p{
         font-size: $tam-letra2;
         color: $color-1;
-        text-align: right;
+        text-align: center;
         padding-bottom: 1rem;
-        padding-right: 1.2rem;
     }
     h2{
         font-size: $tam-letra +0.8rem;

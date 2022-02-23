@@ -3,7 +3,7 @@
 /* INDEX */
 /* navbar */
 .navbar{
-    padding: 0rem;
+    padding: 0.5rem;
     input{
         @include letra;
     }
@@ -17,6 +17,8 @@
     }
 }
 #navbarSupportedContent{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     li{
         margin-left: 2rem; 
         margin-right: 2rem;
@@ -39,7 +41,7 @@
         font-size: $tam-letra2;
         color: $color-1;
         text-align: center;
-        padding-bottom: 1rem;
+        margin-top: 1rem;
     }
     h2{
         font-size: $tam-letra +0.8rem;
@@ -122,10 +124,14 @@
     }
     p{
         font-size: $tam-letra2;
+        margin-bottom: 2rem;
     }
 }
 
 /* TIENDA */
+.mainTienda{
+    margin-bottom: 3rem;
+}
 .mainTienda__productos{
     @include letra;
     ul{
@@ -145,12 +151,20 @@
         filter:brightness(0.7);
         &:hover{
             transform: scale(1.2);
-            transition: 0.5s;
+            transition: 0.2s;
             filter: none;
         }
     }
 }
-
+.hr{
+    border-color: $color-2;
+    color: $color-2;
+    background-color: $color-2;
+    width: 85%;
+    @include centrado;
+    opacity: 90;
+    margin-top: 3rem;
+}
 .mainTienda__ul li{
     div{
         @include letra;
@@ -159,75 +173,104 @@
         margin-bottom: 0.5rem;
         display: flex;
         flex-direction: column;
-        &:hover{
-            color: $color-2;
-            font-size: $tam-letra +0.2rem;
-            transition: 0.5s;
-        }
         label{
             padding: 1rem;
             text-decoration: overline;
             font-size: larger;
             font-weight: 300;
         }
+        &:hover label{
+            color: $color-2;
+            font-size: x-large;
+            transition: 0.2s;
+        }
         p{
             padding: 0.3rem;
         }
         select{
+            width: 70%;
+            @include centrado;
             @include letra;
             padding: 0.5rem;
             border-color: $color-principal;
-        }
     }
 }
+}
+
 .mainTienda__datos{
     padding: 1px;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 4rem 0rem 2rem 0rem;
     filter: brightness(0.9);
-    &:hover{
-            filter: none;
-        }
     @include letra;
-    textarea{
-        @include letra;
-        color: $color-2;
-        @include centrado;
-        margin-top: 1rem;
-        width: 70%;
-        border: solid $color-principal;
-        &:hover{
-            border: {
-            width: 0.1rem;
-            style: solid;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0rem 1rem 0rem;
+        &:hover label{
+            font-size: large;
             color: $color-2;
+        }
+        &:hover input{
+            border-width: 0.2rem;
+            border-style: solid;
+            border-color: $color-principal $color-principal $color-2 $color-principal;
+        }
+        input{
+            @include centrado;
+            @include letra;
+            color: $color-2;
+            width: 60%;
+            border: {
+                style:solid;
+                width: 0.1rem;
+                color: $color-principal $color-principal $color-1 $color-principal;
             }
         }
-    }
-    button{
-        width: 70%;
-        @include letra;
-        @include centrado;
-        margin-bottom: 1rem;
-    }
-}
-.mainTienda__label{
-    display: flex;
-    flex-direction: column;
-    input{
-        @include centrado;
-        @include letra;
-        width: 50%;
-        border: 0.1rem solid $color-principal;
-        &:hover input{
-            border: 0.2rem solid $color-principal $color-principal $color-2 $color-principal;
+        p{
+            font-size: small;
+            margin: 1.5rem 5rem 0rem 5rem;
         }
     }
-    margin: 1rem 0rem 1rem 0rem;
-        &:hover{
+}
+.mainTienda__2{
+        textarea{
+            @include letra;
+            color: $color-2;
+            @include centrado;
+            margin-top: 1rem;
+            width: 70%;
+            border: dashed 0.1rem $color-1;
+            border-radius: 1rem;
+            &:hover{
+                border: {
+                width: 0.2rem;
+                style: solid;
+                color: $color-2;
+                }
+            }
+        }
+        button{
+            width: 70%;
+            @include letra;
+            @include centrado;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    margin-top: 2rem;
+}
+.mainTienda__label2{
+    &:hover label{
         font-size: large;
         color: $color-2;
+        text-decoration: overline;
+    }
+    label{
+        margin-top: 1rem;
+        @include letra;
+        @include centrado;
     }
 }
+
 .mainTienda__pedido{
     margin: 1rem 0rem 0rem 0rem;
 }
@@ -332,9 +375,6 @@
     margin-bottom: 1.5rem;
     padding: 1.5rem;
     filter: brightness(0.9);
-    &:hover{
-            filter: none;
-        }
     input{
         @include centrado;
         @include letra;
@@ -342,35 +382,42 @@
         border: {
             width: 0.1rem;
             style: solid;
-            color: $color-principal;
-        }
-        &:hover{
-            border: {
-                width: 0.2rem;
-                style: solid;
-                color: $color-principal $color-principal $color-2 $color-principal;
-            };
+            color: $color-principal $color-principal $color-1 $color-principal;
         }
     }
     label{
         margin: 1rem;
-        &:hover{
+    }
+}
+.mainContacto__datos{
+    div
+        &:hover input{
+            border: {
+                width: 0.2rem;
+                style: solid;
+                color: $color-principal $color-principal $color-2 $color-principal;
+                };
+            }
+        &:hover label{
             font-size: large;
             color: $color-2;
+            }
+}
+#datosConsulta {
+    margin-bottom: 2rem;
+    &:hover label{
+        font-size: large;
+        color: $color-2;
         }
+    &:hover textarea{
+        border: solid $color-2 0.2rem;
     }
     textarea{
         @include letra;
         @include centrado;
-        color: $color-2;
-        width: 60%;
-        border: solid $color-principal;
-        &:hover {
-            border: solid $color-2 00.1rem;
-        }
-    }
-    div{
-        margin-bottom: 2rem;
+        color: $color-2;            width: 60%;
+        border: dashed 0.1rem $color-1;
+        border-radius: 1rem;
     }
     button{
         width: 60%;

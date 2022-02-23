@@ -76,18 +76,28 @@
     <!-- ---MAIN--- -->
     <main class="mainContacto">
         <form class="mainContacto__form">
-            <label for=nombre>nombre</label>
-            <input type="text" name="nombre" id="name" required>
-            <label for="apellido">apellido</label>
-            <input type="text" name="apellido" id="apellido" required>
-            <label for=email>email</label>
-            <input type="email" name="email" id="email" required>
-            <label for="telefono">teléfono</label>
-            <input type="tel" name="telefono" id="telefono" required>
-            <label for="consulta">consulta</label>
-            <div class="d-grid gap-2 col-lg-8 mx-auto">
-                <textarea name="consulta" id="consulta" cols="60" rows="8" placeholder="te responderemos en breve"></textarea>
-                <button type="submit" class="btn btn-outline-success text-white">enviar</button>
+            <div class="mainContacto__datos">
+                <label for=nombre>nombre</label>
+                <input type="text" name="nombre" id="name" required>
+            </div>
+            <div class="mainContacto__datos">
+                <label for="apellido">apellido</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+            <div class="mainContacto__datos">
+                <label for=email>email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+                <div class="mainContacto__datos">
+                <label for="telefono">teléfono</label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </div>
+            <div class="mainContacto__datos2">
+                <div class="d-grid gap-2 col-lg-8 mx-auto" id="datosConsulta">
+                    <label for="consulta">consulta</label>
+                    <textarea name="consulta" id="consulta" cols="60" rows="8" placeholder="te responderemos en breve"></textarea>
+                    <button type="submit" class="btn btn-outline-success text-white">enviar</button>
+                </div>
             </div>
         </form>
     </main>

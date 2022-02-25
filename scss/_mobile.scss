@@ -1,4 +1,4 @@
-/* mobile */
+/* MOBILE */
 
 /* INDEX */
 /* navbar */
@@ -11,10 +11,6 @@
         font-family: $letra;
         font-size: $tam-letra;
     }
-    a{
-        font-family: $letra;
-        font-size: $tam-letra;
-    }
 }
 #navbarSupportedContent{
     margin-top: 1rem;
@@ -22,6 +18,8 @@
     li{
         margin-left: 2rem; 
         margin-right: 2rem;
+        font-family: $letra;
+        font-size: $tam-letra;
     }
 }
 #navbar-brandDesktop{
@@ -86,13 +84,13 @@
         letter-spacing: 0.3rem;
         animation: frase 4s infinite;
         @keyframes frase{
-            0% {color: #D88C9A;}
-            15% {color:#F2D0A9;}
-            30% {color: #F1E3D3;}
-            50% {color: #99C1B9;}
-            70% {color: #F1E3D3;}
-            85% {color:#F2D0A9;}
-            100% {color:#D88C9A;}
+            0% {color: #B0F2B4;}
+            15% {color: #BAF2E9;}
+            30% {color: #BAD7F2;}
+            50% {color: #F2BAC9;}
+            70% {color: #BAD7F2;}
+            85% {color: #BAF2E9;}
+            100% {color: #B0F2B4;}
         }
     }  
 }
@@ -129,6 +127,7 @@
 }
 
 /* TIENDA */
+/* main tienda */
 .mainTienda{
     margin-bottom: 3rem;
 }
@@ -155,15 +154,6 @@
             filter: none;
         }
     }
-}
-.hr{
-    border-color: $color-2;
-    color: $color-2;
-    background-color: $color-2;
-    width: 85%;
-    @include centrado;
-    opacity: 90;
-    margin-top: 3rem;
 }
 .mainTienda__ul li{
     div{
@@ -193,10 +183,18 @@
             @include letra;
             padding: 0.5rem;
             border-color: $color-principal;
+        }
     }
 }
+.hr{
+    border-color: $color-2;
+    color: $color-2;
+    background-color: $color-2;
+    width: 85%;
+    @include centrado;
+    opacity: 90;
+    margin-top: 3rem;
 }
-
 .mainTienda__datos{
     padding: 1px;
     margin: 4rem 0rem 2rem 0rem;
@@ -233,29 +231,22 @@
     }
 }
 .mainTienda__2{
-        textarea{
-            @include letra;
-            color: $color-2;
-            @include centrado;
-            margin-top: 1rem;
-            width: 70%;
-            border: dashed 0.1rem $color-1;
-            border-radius: 1rem;
-            &:hover{
-                border: {
-                width: 0.2rem;
-                style: solid;
-                color: $color-2;
-                }
-            }
-        }
-        button{
-            width: 70%;
-            @include letra;
-            @include centrado;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
+    textarea{
+        @include letra;
+        color: $color-2;
+        @include centrado;
+        margin-top: 1rem;
+        width: 70%;
+        border: dashed 0.1rem $color-1;
+        border-radius: 1rem;
+    }
+    button{
+        width: 70%;
+        @include letra;
+        @include centrado;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
     margin-top: 2rem;
 }
 .mainTienda__label2{
@@ -264,13 +255,19 @@
         color: $color-2;
         text-decoration: overline;
     }
+    &:hover textarea{
+        border: {
+            width: 0.2rem;
+            style: solid;
+            color: $color-2;
+        }   
+    }
     label{
         margin-top: 1rem;
         @include letra;
         @include centrado;
     }
 }
-
 .mainTienda__pedido{
     margin: 1rem 0rem 0rem 0rem;
 }
@@ -279,72 +276,75 @@
 }
 
 /* EVENTOS */
+/* main eventos */
 .mainEventos{
     p{
         @include letra;
         margin: 1rem 3rem 1rem 3rem;
     }
 }
+
+/* section eventos */
 .sectionEventos{
     h4{
         @include letra;
         color: $color-2;
         font-size: $tam-letra +0.3rem;
-        margin: 2.7rem;
+        margin: 3.2rem;
     }   
 }
 .sectionEventos__opcion1{
     @include centrado;
-}
-.sectionEventos__picada{
-    @include centrado;
-    width: 70%;
-    height: auto;
-    filter: brightness(0.7);
-    &:hover{
+    &:hover img{
         transform: scale(1.2);
         transition: 0.5s;
         filter: none;
     }
+    img{
+        @include centrado;
+        width: 70%;
+        height: auto;
+        filter: brightness(0.7);
+    }
 }
 .sectionEventos__opcion2{
     @include centrado;
-}
-.sectionEventos__menu{
-    @include centrado;
-    width: 80%;
-    height: auto;
-    filter: brightness(0.7);
-    &:hover{
+    &:hover img{
         transform: scale(1.2);
         transition: 0.5s;
         filter: none;
+    }
+    img {
+        @include centrado;
+        width: 80%;
+        height: auto;
+        filter: brightness(0.7);
     }
 }
 .h4Eventos{
     @include centrado;
     @include letra;
     color: $color-2;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.12rem;
     &:hover h4{
-        transition: 0.5s;
-        font-size: x-large;
+        transition: 0.1s;
+        font-size: 1.4rem;
+        font-weight: 450;
+        letter-spacing: 0.2rem;
     }
 }
 .sectionEventos__opcion3{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-bottom: 2rem;
     img{
         width: 50%;
         height: auto;
     }
 }
-.asideEventos{
-    display: none;
-}
 
 /* QUIENES SOMOS */
+/* main quienes */
 .mainQuienes{
     @include letra;
     margin: 1rem 3rem 3rem 3rem;
@@ -358,17 +358,21 @@
         font-size: large;
         letter-spacing: 0.1rem;
         animation: enblanco 6s infinite;
+        animation-delay: 2s;
         @keyframes enblanco{
             0% {color:$color-2;}
             100% {color:$color-principal;}
         }
     }
 }
+
+/* aside quienes */
 .asideQuienes__amasa{
     display: none;
 }
 
 /* CONTACTO */
+/* main contacto */
 .mainContacto__form{
     @include letra;
     margin-top: 1.5rem;
@@ -391,24 +395,26 @@
 }
 .mainContacto__datos{
     div
-        &:hover input{
-            border: {
-                width: 0.2rem;
-                style: solid;
-                color: $color-principal $color-principal $color-2 $color-principal;
-                };
-            }
-        &:hover label{
-            font-size: large;
-            color: $color-2;
-            }
+    &:hover input{
+        border: {
+            width: 0.2rem;
+            style: solid;
+            color: $color-principal $color-principal $color-2 $color-principal;
+        };
+    }
+    &:hover label{
+        font-size: large;
+        color: $color-2;
+    }
 }
 #datosConsulta {
+    margin-top: 1rem;
     margin-bottom: 2rem;
     &:hover label{
         font-size: large;
         color: $color-2;
-        }
+        text-decoration: overline;
+    }
     &:hover textarea{
         border: solid $color-2 0.2rem;
     }

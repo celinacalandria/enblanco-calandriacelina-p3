@@ -335,12 +335,6 @@
     @include letra;
     color: $color-2;
     letter-spacing: 0.12rem;
-    &:hover h4{
-        transition: 0.1s;
-        font-size: 1.4rem;
-        font-weight: 450;
-        letter-spacing: 0.2rem;
-    }
 }
 .sectionEventos__opcion3{
     display: flex;

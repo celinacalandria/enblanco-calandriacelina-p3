@@ -241,7 +241,7 @@
         border-radius: 1rem;
     }
     button{
-        width: 70%;
+        width: 60%;
         @include letra;
         @include centrado;
         margin-top: 1rem;
@@ -382,7 +382,7 @@
     input{
         @include centrado;
         @include letra;
-        width: 50%;
+        width: 60%;
         border: {
             width: 0.1rem;
             style: solid;
@@ -421,7 +421,8 @@
     textarea{
         @include letra;
         @include centrado;
-        color: $color-2;            width: 60%;
+        color: $color-2;            
+        width: 80%;
         border: dashed 0.1rem $color-1;
         border-radius: 1rem;
     }

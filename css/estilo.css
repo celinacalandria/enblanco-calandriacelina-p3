@@ -30,6 +30,8 @@
   margin-right: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 350;
 }
 
 #navbar-brandDesktop {
@@ -104,9 +106,10 @@
   font-weight: lighter;
   color: #F3DFC1;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
   -webkit-animation: frase 4s infinite;
           animation: frase 4s infinite;
 }
@@ -157,6 +160,17 @@
   100% {
     color: #B0F2B4;
   }
+}
+
+.sectionDesktop h4 {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  color: #F3DFC1;
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
 }
 
 /* footer */
@@ -241,25 +255,6 @@
           flex-direction: row;
 }
 
-.mainTienda__productos img {
-  width: 18rem;
-  height: auto;
-  display: block;
-  margin: auto;
-  margin-top: 1rem;
-  -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
-}
-
-.mainTienda__productos img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  -webkit-filter: none;
-          filter: none;
-}
-
 .mainTienda__ul li div {
   font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -276,6 +271,25 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.mainTienda__ul li div img {
+  width: 18rem;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+.mainTienda__ul li div img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .mainTienda__ul li div label {
@@ -388,7 +402,7 @@
   display: block;
   margin: auto;
   margin-top: 1rem;
-  width: 70%;
+  width: 75%;
   border: dashed 0.1rem #F3DFC1;
   border-radius: 1rem;
 }
@@ -468,8 +482,8 @@
 .sectionEventos__opcion1:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-filter: none;
           filter: none;
 }
@@ -491,8 +505,8 @@
 .sectionEventos__opcion2:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-filter: none;
           filter: none;
 }
@@ -729,7 +743,7 @@ div
   }
   .sectionDesktop h3 {
     font-size: 2.5rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.4rem;
     -webkit-animation: tentamos 3s infinite;
             animation: tentamos 3s infinite;
   }
@@ -779,6 +793,9 @@ div
       color: #B0F2B4;
     }
   }
+  .sectionDesktop h4 {
+    font-size: 2rem;
+  }
   /* main */
   .mainContainer {
     display: none;
@@ -820,7 +837,7 @@ div
     font-size: 1rem;
   }
   /* TIENDA */
-  /* se mantiene */
+  /* main tienda */
   .mainTienda__datos div input {
     width: 40%;
   }
@@ -831,6 +848,7 @@ div
     width: 40%;
   }
   /* EVENTOS */
+  /* section eventos */
   .sectionEventos__opcion1 {
     padding: 3rem 1rem 3rem 1rem;
     display: -ms-grid;
@@ -840,19 +858,6 @@ div
     -ms-grid-rows: auto;
         grid-template-rows: auto;
         grid-template-areas: "frase1 picada";
-  }
-  .sectionEventos__opcion1:hover img {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    -webkit-filter: none;
-            filter: none;
-  }
-  .sectionEventos__opcion1:hover h4 {
-    font-size: xx-large;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
   }
   .sectionEventos__opcion1 h4 {
     display: block;
@@ -869,20 +874,12 @@ div
     -ms-grid-column: 2;
     grid-area: picada;
   }
-  .sectionEventos__opcion2:hover h4 {
-    font-size: xx-large;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-  }
   .sectionEventos__opcion2 h4 {
     display: block;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: x-large;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: frase1;
   }
   .sectionEventos__opcion2 img {
     margin-top: 4rem;
@@ -1026,10 +1023,12 @@ div
     margin-top: 3rem;
   }
   /* QUIENES SOMOS */
+  /* main quienes */
   .mainQuienes b {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
+  /* aside quienes */
   .asideQuienes__amasa {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -1054,7 +1053,6 @@ div
             filter: grayscale(0%);
   }
   /* CONTACTO */
-  /* se mantiene */
   .mainContacto__form input {
     width: 50%;
   }
@@ -1092,6 +1090,7 @@ div
     text-align: center;
   }
   /* TIENDA */
+  /* main tienda */
   .mainTienda__productos div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1105,6 +1104,9 @@ div
             justify-content: space-evenly;
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+  .mainTienda__productos li {
+    width: 40rem;
   }
   .mainTienda__form {
     display: -webkit-box;
@@ -1199,33 +1201,20 @@ div
     text-align: center;
   }
   /* EVENTOS */
+  /* main eventos */
   .mainEventos p {
     margin: 2rem 10rem 2rem 10rem;
     font-size: larger;
   }
-  .sectionEventos__opcion1 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 2fr 2fr;
-        grid-template-columns: 2fr 2fr;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "frase1 picada";
-  }
-  .sectionEventos__opcion1 h4 {
-    display: block;
-    margin: auto;
-    font-size: x-large;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: frase1;
+  /* sectio eventos */
+  .sectionEventos__opcion1:hover h4 {
+    font-size: xx-large;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
   }
   .sectionEventos__opcion1 img {
     width: 22rem;
     height: auto;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: picada;
   }
   .sectionEventos__opcion2 {
     padding: 3rem 1rem 3rem 1rem;
@@ -1237,14 +1226,6 @@ div
         grid-template-rows: auto;
         grid-template-areas: "menu frase2";
   }
-  .sectionEventos__opcion2:hover img {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    -webkit-filter: none;
-            filter: none;
-  }
   .sectionEventos__opcion2:hover h4 {
     font-size: xx-large;
     -webkit-transition: 0.1s;
@@ -1255,19 +1236,17 @@ div
     margin: auto;
     margin-left: 2rem;
     margin-right: 2rem;
-    font-size: x-large;
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: frase2;
   }
   .sectionEventos__opcion2 img {
-    width: 30rem;
-    height: auto;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: menu;
   }
   /* QUIENES SOMOS */
+  /* main quienes */
   .mainQuienes {
     margin: 2rem 0rem 3rem 0rem;
   }
@@ -1278,7 +1257,8 @@ div
   .mainQuienes b {
     font-size: x-large;
   }
-  /* contacto */
+  /* CONTACTO */
+  /* main contacto */
   .mainContacto__form input {
     width: 40%;
   }

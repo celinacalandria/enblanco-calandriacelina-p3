@@ -139,7 +139,7 @@
   }
   img{
     width: 18rem;
-    height: auto;
+    height: 100%;
     grid-area: picada;
   }
 }
@@ -154,7 +154,7 @@
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 30rem;
-    height: auto;
+    height: 100%;
   }
 }
 .h4Eventos{
@@ -194,7 +194,7 @@
   img{
     filter: brightness(0.7);
     width: 17rem;
-    height: auto;
+    height: 100%;
   }
 }
 .sectionEventos__panes{
@@ -228,7 +228,7 @@
   }
   img{
     width: 33.33%;
-    height: auto;
+    height: 100%;
     filter: grayscale(0%);
   }
 }

@@ -172,7 +172,7 @@
         flex-direction: column;
         img{
             width: 18rem;
-            height: auto;
+            height: 100%;
             @include centrado;
             margin-top: 1rem;
             filter:brightness(0.7);
@@ -322,7 +322,7 @@
     img{
         @include centrado;
         width: 70%;
-        height: auto;
+        height: 100%;
         filter: brightness(0.7);
     }
 }
@@ -336,7 +336,7 @@
     img {
         @include centrado;
         width: 80%;
-        height: auto;
+        height: 100%;
         filter: brightness(0.7);
     }
 }
@@ -352,7 +352,7 @@
     margin-bottom: 2rem;
     img{
         width: 50%;
-        height: auto;
+        height: 100%;
     }
 }
 

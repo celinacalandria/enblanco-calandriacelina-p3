@@ -285,7 +285,7 @@
 
 .mainTienda__ul li div img {
   width: 18rem;
-  height: auto;
+  height: 100%;
   display: block;
   margin: auto;
   margin-top: 1rem;
@@ -502,7 +502,7 @@
   display: block;
   margin: auto;
   width: 70%;
-  height: auto;
+  height: 100%;
   -webkit-filter: brightness(0.7);
           filter: brightness(0.7);
 }
@@ -525,7 +525,7 @@
   display: block;
   margin: auto;
   width: 80%;
-  height: auto;
+  height: 100%;
   -webkit-filter: brightness(0.7);
           filter: brightness(0.7);
 }
@@ -555,7 +555,7 @@
 
 .sectionEventos__opcion3 img {
   width: 50%;
-  height: auto;
+  height: 100%;
 }
 
 /* QUIENES SOMOS */
@@ -871,7 +871,7 @@ div
   }
   .sectionEventos__opcion1 img {
     width: 18rem;
-    height: auto;
+    height: 100%;
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: picada;
@@ -887,7 +887,7 @@ div
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 30rem;
-    height: auto;
+    height: 100%;
   }
   .h4Eventos {
     letter-spacing: 0.4rem;
@@ -1014,7 +1014,7 @@ div
     -webkit-filter: brightness(0.7);
             filter: brightness(0.7);
     width: 17rem;
-    height: auto;
+    height: 100%;
   }
   .sectionEventos__panes {
     display: block;
@@ -1054,7 +1054,7 @@ div
   }
   .asideQuienes__amasa img {
     width: 33.33%;
-    height: auto;
+    height: 100%;
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%);
   }
@@ -1178,7 +1178,7 @@ div
   }
   .mainTienda__pedidolisto img {
     height: 25rem;
-    width: auto;
+    width: 100%;
     display: block;
     margin: auto;
     margin-top: 1.5rem;
@@ -1220,7 +1220,7 @@ div
   }
   .sectionEventos__opcion1 img {
     width: 22rem;
-    height: auto;
+    height: 100%;
   }
   .sectionEventos__opcion2 {
     padding: 3rem 1rem 3rem 1rem;

@@ -871,7 +871,7 @@ div
   }
   .sectionEventos__opcion1 img {
     width: 18rem;
-    height: 100%;
+    height: auto;
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: picada;
@@ -887,7 +887,7 @@ div
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 30rem;
-    height: 100%;
+    height: auto;
   }
   .h4Eventos {
     letter-spacing: 0.4rem;
@@ -1014,7 +1014,7 @@ div
     -webkit-filter: brightness(0.7);
             filter: brightness(0.7);
     width: 17rem;
-    height: 100%;
+    height: auto;
   }
   .sectionEventos__panes {
     display: block;
@@ -1178,7 +1178,7 @@ div
   }
   .mainTienda__pedidolisto img {
     height: 25rem;
-    width: 100%;
+    width: auto;
     display: block;
     margin: auto;
     margin-top: 1.5rem;

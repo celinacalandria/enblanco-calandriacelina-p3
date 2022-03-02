@@ -45,7 +45,7 @@
 
 .header img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .header p {
@@ -93,6 +93,11 @@
 
 .mainIndex__imagenes {
   display: none;
+}
+
+.mainContainer img {
+  width: 100%;
+  height: 100%;
 }
 
 /* section dektop */
@@ -195,7 +200,7 @@
 .footer img {
   padding: 0.25rem;
   width: 33.333%;
-  height: auto;
+  height: 100%;
 }
 
 .footer ul {

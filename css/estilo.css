@@ -1031,8 +1031,8 @@ div
   /* QUIENES SOMOS */
   /* main quienes */
   .mainQuienes b {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
   /* aside quienes */
   .asideQuienes__amasa {
